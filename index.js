@@ -7,7 +7,7 @@ if(num%i==0){
     if(count>=2){
     return false
 }
-else return false
+else return console.log(false)
 }
 
 prime(9)
