@@ -1,13 +1,12 @@
-function prime(num){
-    let count=0
+function evevOdd(num){
+    
     for(i=1;i<num;i++){
-if(num%i==0){
-    count++
-} }
-    if(count>=2){
-    return false
+if(num%2==0){
+    console.log("Even")
+} 
+   
+else console.log("Odd")
 }
-else return console.log(false)
 }
 
 prime(9)
